@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+.././inc/DvfSimulator.h
+optional
+-
+time.h
+-
+iostream
+-
+string
+-
+vector
+-
+set
+-
+
+/home/luke/Documents/DeversiFi_Project/src/main.cpp
+DvfSimulator.h
+/home/luke/Documents/DeversiFi_Project/src/DvfSimulator.h
+
