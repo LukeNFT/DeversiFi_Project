@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/luke/Documents/DeversiFi_Project/src/main.cpp" "/home/luke/Documents/DeversiFi_Project/build/CMakeFiles/TradingBot.dir/src/main.cpp.o"
+  "/home/luke/Documents/DeversiFi_Project/src/market_bot.cpp" "/home/luke/Documents/DeversiFi_Project/build/CMakeFiles/TradingBot.dir/src/market_bot.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

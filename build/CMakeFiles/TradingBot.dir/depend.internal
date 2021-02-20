@@ -3,4 +3,11 @@
 
 CMakeFiles/TradingBot.dir/src/main.cpp.o
  .././inc/DvfSimulator.h
+ .././inc/market_bot.hpp
+ .././inc/timer.hpp
  /home/luke/Documents/DeversiFi_Project/src/main.cpp
+CMakeFiles/TradingBot.dir/src/market_bot.cpp.o
+ .././inc/DvfSimulator.h
+ .././inc/market_bot.hpp
+ .././inc/timer.hpp
+ /home/luke/Documents/DeversiFi_Project/src/market_bot.cpp

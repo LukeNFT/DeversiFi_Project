@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/TradingBot.dir/src/main.cpp.o"
+  "CMakeFiles/TradingBot.dir/src/market_bot.cpp.o"
   "../TradingBot.pdb"
   "../TradingBot"
 )
