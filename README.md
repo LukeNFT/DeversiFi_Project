@@ -7,6 +7,8 @@ To run from root of the repo:
 2. "cmake --build build -- -j3"
 3. "./TradingBot"
 
+There are many improvements that I would like to make to this program, some noted in the code. However, in the interest of time I have avoided these.
+
 The test can be found and run in /test, to run:
 1. cd "test"
 2. "cmake -H. -Bbuild"
