@@ -1,11 +1,11 @@
 #include <memory>
 #include <unistd.h>
-#include "DvfSimulator.h"
+#include "DvfSimulator_test.h"
 #include "market_bot.hpp"
 
 int main()
 {
-    IDvfSimulator* p_sim = DvfSimulator::Create();
+    IDvfSimulator* p_sim = DvfSimulatorTest::Create();
 
     try
     {
@@ -15,8 +15,6 @@ int main()
     {
         std::cout << "Market Bot failed to start: " << e.what();
     }
-
-    sleep (100);
 
     return true;
 }

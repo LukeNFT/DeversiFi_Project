@@ -23,12 +23,18 @@ set
 .././inc/market_bot.hpp
 memory
 -
+map
+-
 DvfSimulator.h
 .././inc/DvfSimulator.h
 timer.hpp
 .././inc/timer.hpp
 
 .././inc/timer.hpp
+atomic
+-
+iostream
+-
 functional
 -
 chrono
@@ -38,6 +44,8 @@ future
 
 /home/luke/Documents/DeversiFi_Project/src/main.cpp
 memory
+-
+unistd.h
 -
 DvfSimulator.h
 /home/luke/Documents/DeversiFi_Project/src/DvfSimulator.h

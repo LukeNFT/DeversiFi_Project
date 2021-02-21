@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/Test.dir/test.cpp.o CMakeFiles/Test.dir/home/luke/Documents/DeversiFi_Project/src/market_bot.cpp.o  -o ../Test -pthread 
