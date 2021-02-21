@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/TradingBot.dir/test.cpp.o CMakeFiles/TradingBot.dir/home/luke/Documents/DeversiFi_Project/src/market_bot.cpp.o  -o ../TradingBot -pthread 
