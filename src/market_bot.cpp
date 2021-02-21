@@ -6,8 +6,10 @@ MarketBot::MarketBot(IDvfSimulator* p_sim, double eth_balence, double usd_balenc
                      m_eth_balence(eth_balence),
                      m_usd_balence(usd_balence)
 {
-    /* Throw if sim pointer invalid */
-    if (!p_sim) throw;
+    /* Throw if invalid parameters */
+    if (!p_sim) throw "Sim is null";
+    if (eth_balence < 0) throw "eth_balence < 0";
+    if (usd_balence < 0) throw "usd_balence < 0";
 
     /* Create and start the market refresh timer which manages the current orders */
     m_market_refresh_timer = std::make_shared<Timer>(5, std::bind(&MarketBot::RefreshMarket, this));

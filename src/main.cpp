@@ -11,9 +11,9 @@ int main()
     {
         MarketBot* p_market_bot = new MarketBot(p_sim, 10.0, 2000.0);
     }
-    catch(const std::exception& e)
+    catch(const char* msg)
     {
-        std::cout << "Market Bot failed to start: " << e.what();
+        std::cout << "Market Bot failed to start: " << msg << std::endl;
     }
 
     sleep (100);
