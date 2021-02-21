@@ -1,6 +1,6 @@
 This repo contains my solution for the Deversifi C++ developer coding challenge.
 
-Build using both Linux and MAC OS, unfortuanlty I could not get this to easily build with Windows.
+Built using both Linux and MAC OS, unfortuanlty I could not get this to easily build with Windows.
 
 This project uses CMake to generate the makefiles (VERSION 3.1+).
 
